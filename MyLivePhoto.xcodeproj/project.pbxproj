@@ -3,15 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5FAFF076A172C8118CEC66CA /* libPods-MyLivePhoto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD618B6CB16F4CD8829EFA8 /* libPods-MyLivePhoto.a */; };
+		AF24E79D1E5426C10015C231 /* WYXLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF24E79C1E5426C10015C231 /* WYXLibraryViewController.m */; };
+		AF24E7A01E5481650015C231 /* WYXMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF24E79F1E5481650015C231 /* WYXMainTabViewController.m */; };
+		AF24E7A31E5547810015C231 /* WYXDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF24E7A21E5547810015C231 /* WYXDocumentViewController.m */; };
 		AF861B5C1E52E2A8006762FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF861B5B1E52E2A8006762FB /* main.m */; };
 		AF861B5F1E52E2A8006762FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF861B5E1E52E2A8006762FB /* AppDelegate.m */; };
-		AF861B621E52E2A8006762FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF861B611E52E2A8006762FB /* ViewController.m */; };
-		AF861B651E52E2A8006762FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF861B631E52E2A8006762FB /* Main.storyboard */; };
 		AF861B671E52E2A8006762FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF861B661E52E2A8006762FB /* Assets.xcassets */; };
 		AF861B6A1E52E2A8006762FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF861B681E52E2A8006762FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,13 +21,17 @@
 		30FDEEB66DB615B97B4F7EE0 /* Pods-MyLivePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLivePhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLivePhoto/Pods-MyLivePhoto.debug.xcconfig"; sourceTree = "<group>"; };
 		657C67A5C9FDC0A1E9F5CA9F /* Pods-MyLivePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLivePhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLivePhoto/Pods-MyLivePhoto.release.xcconfig"; sourceTree = "<group>"; };
 		6AD618B6CB16F4CD8829EFA8 /* libPods-MyLivePhoto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLivePhoto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF24E7991E5425B30015C231 /* MyLivePhoto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyLivePhoto.entitlements; sourceTree = "<group>"; };
+		AF24E79B1E5426C10015C231 /* WYXLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYXLibraryViewController.h; sourceTree = "<group>"; };
+		AF24E79C1E5426C10015C231 /* WYXLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYXLibraryViewController.m; sourceTree = "<group>"; };
+		AF24E79E1E5481650015C231 /* WYXMainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYXMainTabViewController.h; sourceTree = "<group>"; };
+		AF24E79F1E5481650015C231 /* WYXMainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYXMainTabViewController.m; sourceTree = "<group>"; };
+		AF24E7A11E5547810015C231 /* WYXDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYXDocumentViewController.h; sourceTree = "<group>"; };
+		AF24E7A21E5547810015C231 /* WYXDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYXDocumentViewController.m; sourceTree = "<group>"; };
 		AF861B571E52E2A8006762FB /* MyLivePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLivePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF861B5B1E52E2A8006762FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF861B5D1E52E2A8006762FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF861B5E1E52E2A8006762FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AF861B601E52E2A8006762FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF861B611E52E2A8006762FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AF861B641E52E2A8006762FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF861B661E52E2A8006762FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF861B691E52E2A8006762FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF861B6B1E52E2A8006762FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +66,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF24E79A1E5426AA0015C231 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF24E79E1E5481650015C231 /* WYXMainTabViewController.h */,
+				AF24E79F1E5481650015C231 /* WYXMainTabViewController.m */,
+				AF24E79B1E5426C10015C231 /* WYXLibraryViewController.h */,
+				AF24E79C1E5426C10015C231 /* WYXLibraryViewController.m */,
+				AF24E7A11E5547810015C231 /* WYXDocumentViewController.h */,
+				AF24E7A21E5547810015C231 /* WYXDocumentViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		AF861B4E1E52E2A7006762FB = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +100,10 @@
 		AF861B591E52E2A8006762FB /* MyLivePhoto */ = {
 			isa = PBXGroup;
 			children = (
+				AF24E79A1E5426AA0015C231 /* ViewController */,
+				AF24E7991E5425B30015C231 /* MyLivePhoto.entitlements */,
 				AF861B5D1E52E2A8006762FB /* AppDelegate.h */,
 				AF861B5E1E52E2A8006762FB /* AppDelegate.m */,
-				AF861B601E52E2A8006762FB /* ViewController.h */,
-				AF861B611E52E2A8006762FB /* ViewController.m */,
-				AF861B631E52E2A8006762FB /* Main.storyboard */,
 				AF861B661E52E2A8006762FB /* Assets.xcassets */,
 				AF861B681E52E2A8006762FB /* LaunchScreen.storyboard */,
 				AF861B6B1E52E2A8006762FB /* Info.plist */,
@@ -132,6 +149,7 @@
 		AF861B4F1E52E2A7006762FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WYX;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = com.LittleTroy;
 				TargetAttributes = {
@@ -139,11 +157,16 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N244LJ89FV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
 			buildConfigurationList = AF861B521E52E2A7006762FB /* Build configuration list for PBXProject "MyLivePhoto" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -167,7 +190,6 @@
 			files = (
 				AF861B6A1E52E2A8006762FB /* LaunchScreen.storyboard in Resources */,
 				AF861B671E52E2A8006762FB /* Assets.xcassets in Resources */,
-				AF861B651E52E2A8006762FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF861B621E52E2A8006762FB /* ViewController.m in Sources */,
+				AF24E7A31E5547810015C231 /* WYXDocumentViewController.m in Sources */,
+				AF24E7A01E5481650015C231 /* WYXMainTabViewController.m in Sources */,
+				AF24E79D1E5426C10015C231 /* WYXLibraryViewController.m in Sources */,
 				AF861B5F1E52E2A8006762FB /* AppDelegate.m in Sources */,
 				AF861B5C1E52E2A8006762FB /* main.m in Sources */,
 			);
@@ -235,14 +259,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF861B631E52E2A8006762FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF861B641E52E2A8006762FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF861B681E52E2A8006762FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

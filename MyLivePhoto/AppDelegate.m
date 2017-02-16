@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "WYXMainTabViewController.h"
+#import "WYXLibraryViewController.h"
+#import "WYXDocumentViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +20,45 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]
+                   initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+    
+    WYXMainTabViewController *rootVC = [[WYXMainTabViewController alloc] init];
+    
+    WYXLibraryViewController *libraryVC = [[WYXLibraryViewController alloc] init];
+        libraryVC.title = @"作品";
+    libraryVC.view.backgroundColor = [UIColor redColor];
+    
+    WYXDocumentViewController *documentVC =[[WYXDocumentViewController alloc] init];
+     documentVC.title = @"素材库";
+    documentVC.view.backgroundColor = [UIColor greenColor];
+    
+
+    
+//    UIBarButtonItem *workBtn = [UIBarButtonItem alloc]initWithTitle:@"作品" style:UIBarButtonItemStylePlain target:self action:@selector(tabWroksBtn)];
+//    UIBarButtonItem *libraryBtn = [UIBarButtonItem alloc]initWithTitle:@"资料库" style:UIBarButtonItemStylePlain target:self action:@selector(tabWroksBtn)];
+//    rootVC.toolbarItems = [ ];
+//    rootVC.title = @"资料库";
+    
+    NSArray *arr = @[libraryVC,documentVC];
+    [rootVC setViewControllers:arr animated:YES];
+    rootVC.view.frame = [UIApplication sharedApplication].keyWindow.bounds;
+    UINavigationController *nav = [[UINavigationController alloc]
+                                   initWithRootViewController:rootVC];
+    
+    
+     self.window.rootViewController = nav;
+    
+    [self.window makeKeyAndVisible];
+
     return YES;
+}
+
+- (void)tabWroksBtn:(UIBarButtonItem *)btn
+{
+    NSLog(@"作品按钮被点击了");
 }
 
 
